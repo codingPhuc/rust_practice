@@ -5,6 +5,10 @@ struct User {
     email : String  ,  
      sign_in_count : u64 ,  
 }
+// Unit like Struct Without any fields 
+Struct  AlwayEqual    ; 
+
+
 
 // TUPLE Struct   
 struct Color(i32 , u8  , i8)  ; 
@@ -26,7 +30,8 @@ fn main() {
         ..user1   
     } ;
     println!(" this is user3 :{} {} {} ", user3.email  , user3.username , user3.sign_in_count)   ; 
-
+    let subject = AlwaysEqual  ; 
+    
 
 }
 
